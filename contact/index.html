@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Contact — EVAN_NGO</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../projects/index.html">Projects</a>
+            <a href="index.html">Contact</a>
+            <a href="https://github.com/mrevanngo" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+
+        <h1>Contact</h1>
+
+        <form action="mailto:e3ngo@ucsd.edu" method="POST" enctype="text/plain">
+            <label>
+                Your email:
+                <input name="email" type="email" required>
+            </label>
+            <br>
+            <label>
+                Subject:
+                <input name="subject">
+            </label>
+            <br>
+            <label>
+                Message:
+                <textarea name="body" rows="6" cols="40"></textarea>
+            </label>
+            <br>
+            <button>Send</button>
+        </form>
+
+        <p>Note: submitting will open the user's mail client using the `mailto:` protocol.</p>
+    </body>
+</html>
