@@ -12,19 +12,20 @@ img {
 }
 
 /* Navigation */
+nav {
+  margin-bottom: 2em;
+  border-bottom: 1px solid oklch(80% 3% 200);
+}
+
 nav ul {
-  display: contents;
   list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 nav li {
   display: contents;
-}
-
-nav {
-  display: flex;
-  margin-bottom: 2em;
-  border-bottom: 1px solid oklch(80% 3% 200);
 }
 
 nav a {
