@@ -74,12 +74,12 @@ h1 {
 }
 
 /* Resume */
-.resume-header p {
+p.resume-header {
   color: #666;
   margin-top: 0;
 }
 
-.resume-header a {
+p.resume-header a {
   color: var(--color-accent);
 }
 
