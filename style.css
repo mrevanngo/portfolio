@@ -73,6 +73,56 @@ h1 {
   width: 100%;
 }
 
+/* Resume */
+.resume-header p {
+  color: #666;
+  margin-top: 0;
+}
+
+.resume-header a {
+  color: var(--color-accent);
+}
+
+section {
+  margin-block: 2em;
+  border-top: 2px solid var(--color-accent);
+  padding-top: 0.5em;
+}
+
+section h2 {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+section article {
+  margin-bottom: 1.5em;
+}
+
+section article header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+section article header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+section article header p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+section article ul {
+  margin-top: 0.5em;
+}
+
 /* Contact form */
 form {
   display: grid;
