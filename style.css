@@ -12,7 +12,11 @@ img {
 }
 
 /* Navigation */
-nav ul,
+nav ul {
+  display: contents;
+  list-style: none;
+}
+
 nav li {
   display: contents;
 }
