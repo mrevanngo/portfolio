@@ -17,6 +17,14 @@ img {
   max-width: 400px;
 }
 
+/* Color scheme switcher */
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}
+
 /* Navigation */
 nav {
   --border-color: oklch(50% 10% 200 / 40%);
@@ -140,7 +148,8 @@ form label {
 
 form input,
 form textarea,
-form button {
+form button,
+.color-scheme select {
   font: inherit;
 }
 
