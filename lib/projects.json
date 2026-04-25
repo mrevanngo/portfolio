@@ -1,62 +1,76 @@
 [
     {
-        "title": "Lorem ipsumclonelol dolor",
+        "title": "Comeback Prediction in Professional Esports (League of Legends)",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        "description": "Built a Random Forest classification model to predict win-from-deficit outcomes using 150K+ professional esports match records. Improved F1-score by 347% over baseline through feature engineering and model selection.",
+        "url": "https://mrevanngo.github.io/LOL-statistical-analysis/"
     },
     {
-        "title": "Amet consectetur adipiscing",
+        "title": "STEM Degree Distribution & Socioeconomic Analysis",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+        "description": "Analyzed College Scorecard dataset (6,000+ institutions) to investigate the relationship between low-income student enrollment and STEM degree share at U.S. public colleges. Found a statistically significant negative relationship (r = -0.107, p = 0.009).",
+        "url": "https://github.com/mrevanngo/STEM-Degree-Analysis"
     },
     {
-        "title": "Sed do eiusmod",
+        "title": "Wildlife Population Trend Analyzer",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "description": "Developed a data pipeline to aggregate and visualize multi-decade wildlife census data for endangered species, surfacing population trend anomalies using time-series decomposition in Python."
     },
     {
-        "title": "Incididunt ut labore",
+        "title": "Animal Shelter Outcome Predictor",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+        "description": "Built a classification model to predict adoption, transfer, or euthanasia outcomes for shelter animals using intake records from Austin Animal Center. Achieved 82% accuracy with a gradient boosting classifier."
     },
     {
-        "title": "Ut enim ad minim",
+        "title": "DSC 106 Personal Portfolio Website",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        "description": "Designed and built a personal portfolio website from scratch using HTML, CSS, and JavaScript as part of DSC 106. Features a responsive layout, dark/light mode toggle, and dynamically rendered project cards from JSON data."
     },
     {
-        "title": "Quis nostrud exercitation",
+        "title": "SQL Music Library Database",
+        "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+        "description": "Designed a normalized relational database schema in PostgreSQL to manage a music library with artists, albums, tracks, and playlists. Wrote complex queries for genre analytics and listening history aggregation."
     },
     {
-        "title": "Duis aute irure",
+        "title": "COVID-19 Vaccination Rate Visualization",
+        "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "description": "Created an interactive choropleth map using Plotly and pandas to visualize U.S. county-level COVID-19 vaccination rates over time, with filtering by state and dose type."
     },
     {
-        "title": "Voluptate velit esse",
+        "title": "Penguin Species Classifier",
+        "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+        "description": "Trained a multiclass classification model on the Palmer Penguins dataset to distinguish species by morphological features. Compared logistic regression, KNN, and decision tree performance using cross-validation."
     },
     {
-        "title": "Excepteur sint occaecat",
+        "title": "Key Club Volunteer Tracking System",
+        "year": "2022",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        "description": "Built and maintained a Google Forms and Sheets workflow to track volunteer sign-ups and service hours for 100+ members across multiple community events at Arroyo High School."
     },
     {
-        "title": "Non proident sunt",
+        "title": "Housing Price Regression Analysis",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+        "description": "Performed exploratory data analysis and built multiple linear regression models to predict housing prices using the Ames Housing dataset. Applied feature selection, log transforms, and regularization techniques."
     },
     {
-        "title": "Officia deserunt mollit",
+        "title": "Web Scraper for Conservation News",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "description": "Built a Python web scraper using BeautifulSoup to collect and aggregate news headlines related to wildlife conservation from multiple sources, storing results in a SQLite database for trend analysis."
     },
     {
-        "title": "Id est laborum",
+        "title": "CAT 3 Survival Guide Website",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim."
+        "description": "Led a 4-person team to design and launch a project website delivering a UCSD CAT 3 course survival guide. Presented to 30 students and 2 professors, handling project coordination, design decisions, and final pitch."
     }
 ]
