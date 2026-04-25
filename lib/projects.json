@@ -14,16 +14,16 @@
         "url": "https://github.com/mrevanngo/STEM-Degree-Analysis"
     },
     {
-        "title": "Wildlife Population Trend Analyzer",
+        "title": "Ultra-Processed Foods Cost 7% Less Per Item Than Minimally Processed Ones",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Developed a data pipeline to aggregate and visualize multi-decade wildlife census data for endangered species, surfacing population trend anomalies using time-series decomposition in Python."
+        "description": "Designed a static violin-boxplot visualization exploring price differences across NOVA food processing classes using a dataset of 50,000+ items from Walmart, Target, and Whole Foods. Found that ultra-processed foods (Class 3) have a median price of $3.69 vs $3.98 for minimally processed foods (Class 0), a 7% difference. Prices capped at the 99th percentile to remove bulk/multi-pack outliers."
     },
     {
-        "title": "Animal Shelter Outcome Predictor",
+        "title": "Force vs. Abuse of Authority: Visualizing CCRB Complaint Substantiation Rates",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Built a classification model to predict adoption, transfer, or euthanasia outcomes for shelter animals using intake records from Austin Animal Center. Achieved 82% accuracy with a gradient boosting classifier."
+        "description": "Designed two opposing persuasive visualizations around the proposition that force-related NYPD allegations are less likely to be substantiated than abuse of authority complaints. The supporting view used a smoothed time-series and grouped bar chart showing lower substantiation rates for force (12.78% vs 30.42%). The opposing view reframed the data by total case counts, showing force allegations still represent a significant share of validated complaints."
     },
     {
         "title": "DSC 106 Personal Portfolio Website",
