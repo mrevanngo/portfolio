@@ -1,6 +1,6 @@
 [
     {
-        "title": "Comeback Prediction in Professional Esports (League of Legends)",
+        "title": " Prediction in Professional Esports (League of Legends)",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Built a Random Forest classification model to predict win-from-deficit outcomes using 150K+ professional esports match records. Improved F1-score by 347% over baseline through feature engineering and model selection.",
