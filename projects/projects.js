@@ -44,3 +44,16 @@ data.forEach((d, idx) => {
     .attr('class', 'legend-item')
     .html(`<span class="swatch"></span> ${d.label} <em>(${d.value})</em>`);
 });
+
+let searchInput = document.querySelector('.searchBar');
+
+searchInput.addEventListener('input', (event) => {
+  query = event.target.value;
+
+  let filteredProjects = projects.filter((project) =>
+    project.title.toLowerCase().includes(query.toLowerCase()),
+  );
+
+  renderProjects(filteredProjects, projectsContainer, 'h2');
+  projectsTitle.textContent = `${filteredProjects.length} Projects`;
+});
