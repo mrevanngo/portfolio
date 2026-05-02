@@ -10,6 +10,8 @@ renderProjects(projects, projectsContainer, 'h2');
 const projectsTitle = document.querySelector('.projects-title');
 projectsTitle.textContent = `${projects.length} Projects`;
 
+let query = '';
+
 let arcGenerator = d3.arc().innerRadius(0).outerRadius(50);
 
 let rolledData = d3.rollups(
