@@ -96,6 +96,34 @@ h1 {
   overflow: visible;
 }
 
+/* Pie chart legend */
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  padding: 0.75em 1em;
+  margin-block: 0.5em 1.5em;
+  border: 1px solid color-mix(in oklch, CanvasText, Canvas 70%);
+  border-radius: 0.4em;
+  list-style: none;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.85rem;
+}
+
+.legend-item .swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  background: var(--color);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
 /* Project year */
 .project-year {
   font-family: Baskerville, serif;
