@@ -10,6 +10,7 @@ let query = '';
 
 let arcGenerator = d3.arc().innerRadius(0).outerRadius(50);
 let colors = d3.scaleOrdinal(d3.schemeTableau10);
+let selectedIndex = -1;
 
 function renderPieChart(projectsGiven) {
   let newRolledData = d3.rollups(
@@ -26,20 +27,35 @@ function renderPieChart(projectsGiven) {
   let newArcData = newSliceGenerator(newData);
   let newArcs = newArcData.map((d) => arcGenerator(d));
 
+  let svg = d3.select('svg');
+  let legend = d3.select('.legend');
+
   // Clear previous pie slices and legend items
-  d3.select('svg').selectAll('path').remove();
-  d3.select('.legend').selectAll('li').remove();
+  svg.selectAll('path').remove();
+  legend.selectAll('li').remove();
 
   // Draw pie slices
   newArcs.forEach((arc, idx) => {
-    d3.select('svg')
+    svg
       .append('path')
       .attr('d', arc)
-      .attr('fill', colors(idx));
+      .attr('fill', colors(idx))
+      .on('click', () => {
+        selectedIndex = selectedIndex === idx ? -1 : idx;
+
+        svg
+          .selectAll('path')
+          .attr('class', (_, i) => (selectedIndex === i ? 'selected' : ''));
+
+        legend
+          .selectAll('li')
+          .attr('class', (_, i) =>
+            selectedIndex === i ? 'legend-item selected' : 'legend-item',
+          );
+      });
   });
 
   // Draw legend
-  let legend = d3.select('.legend');
   newData.forEach((d, idx) => {
     legend
       .append('li')

@@ -111,12 +111,22 @@ h1 {
 #projects-pie-plot {
   path {
     transition: 300ms;
+    cursor: pointer;
   }
 
   &:has(path:hover) {
     path:not(:hover) {
       opacity: 0.5;
     }
+  }
+}
+
+/* Selected wedge/legend highlight */
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
   }
 }
 
