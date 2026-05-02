@@ -135,6 +135,21 @@ h1 {
   flex-shrink: 0;
 }
 
+/* Search bar */
+.searchBar {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.6em 1em;
+  font-size: 1.1rem;
+  margin-block: 1em;
+  border: 1px solid color-mix(in oklch, CanvasText, Canvas 70%);
+  border-radius: 0.4em;
+  background: Canvas;
+  color: CanvasText;
+  font: inherit;
+}
+
 /* Project year */
 .project-year {
   font-family: Baskerville, serif;
