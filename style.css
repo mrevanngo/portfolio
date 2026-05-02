@@ -107,6 +107,19 @@ h1 {
   flex: 1;
 }
 
+/* Pie chart hover interaction */
+#projects-pie-plot {
+  path {
+    transition: 300ms;
+  }
+
+  &:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+  }
+}
+
 /* Pie chart legend */
 .legend {
   display: grid;
