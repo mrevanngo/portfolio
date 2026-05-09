@@ -293,6 +293,7 @@ dl.stats dt {
 }
 
 dl.stats dd {
+  grid-row: 2;
   margin: 0;
   font-size: 1.5rem;
   font-weight: bold;
