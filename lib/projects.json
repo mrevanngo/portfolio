@@ -72,5 +72,12 @@
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Led a 4-person team to design and launch a project website delivering a UCSD CAT 3 course survival guide. Presented to 30 students and 2 professors, handling project coordination, design decisions, and final pitch."
+    },
+    {
+        "title": "Bikewatching",
+        "year": "2025",
+        "image": "../images/bike_watching.png",
+        "description": "Built an interactive Mapbox GL JS visualization of Boston bike traffic data, showing station activity, trip flows, and ridership patterns across the city's Bluebikes network.",
+        "url": "https://mrevanngo.github.io/bikewatching/"
     }
 ]
