@@ -8,17 +8,17 @@
         <script type="module" src="../global.js"></script>
     </head>
     <body>
-<h1>Evan Ngo</h1>
-        <p class="resume-header">La Jolla, CA | <a href="mailto:mrevanngo@gmail.com">mrevanngo@gmail.com</a> | <a href="https://github.com/mrevanngo" target="_blank" rel="noopener noreferrer">github.com/mrevanngo</a> | <a href="https://linkedin.com/in/mr-evan-ngo" target="_blank" rel="noopener noreferrer">linkedin.com/in/mr-evan-ngo</a></p>
+        <h1>Evan Ngo</h1>
+        <p class="resume-header">626-361-8769 | <a href="mailto:mr.evanngo@gmail.com">mr.evanngo@gmail.com</a> | <a href="https://github.com/mrevanngo" target="_blank" rel="noopener noreferrer">github.com/mrevanngo</a> | <a href="https://linkedin.com/in/mr-evan-ngo" target="_blank" rel="noopener noreferrer">linkedin.com/in/mr-evan-ngo</a></p>
 
         <section>
             <h2>Education</h2>
             <article>
                 <header>
                     <h3>University of California, San Diego</h3>
-                    <p>La Jolla, CA</p>
+                    <p>Expected <time datetime="2027-06">June 2027</time></p>
                 </header>
-                <p>Bachelor of Science in Data Science — Expected <time datetime="2028-06">Jun. 2028</time></p>
+                <p>Bachelor of Science in Data Science; GPA: 3.91 &nbsp;·&nbsp; La Jolla, CA</p>
                 <p>Relevant Coursework: Data Structures &amp; Algorithms, Applied Data Science, Database Management (SQL), Statistical Analysis</p>
             </article>
         </section>
@@ -27,10 +27,40 @@
             <h2>Technical Skills</h2>
             <ul>
                 <li><strong>Languages:</strong> Python, SQL, Java, HTML</li>
+                <li><strong>Libraries:</strong> pandas, NumPy, scikit-learn, Plotly, Matplotlib, Seaborn, SciPy, BeautifulSoup, NLTK, TextBlob</li>
                 <li><strong>Databases:</strong> PostgreSQL, SQLite</li>
-                <li><strong>Developer Tools:</strong> Git, VS Code, Jupyter Notebook, PyCharm, IntelliJ</li>
-                <li><strong>Libraries:</strong> pandas, NumPy, Plotly, Matplotlib, Seaborn, scikit-learn, SciPy, BeautifulSoup</li>
+                <li><strong>Developer Tools:</strong> Git, Jupyter Notebook, VS Code, PyCharm, IntelliJ</li>
             </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+
+            <article>
+                <header>
+                    <h3>Amazon Fulfillment Center – Voice of the Associate Externship</h3>
+                    <p><time datetime="2026-02">Feb. 2026</time> – <time datetime="2026-04">Apr. 2026</time></p>
+                </header>
+                <p style="margin: 0 0 0.25em; color: #666; font-size: 0.9rem;">HR Operations &amp; People Analytics Extern &nbsp;·&nbsp; Remote</p>
+                <ul>
+                    <li>Identified 3 recurring employee pain points driving early attrition (pre-Day 90) by analyzing 500+ Glassdoor, Indeed, and Reddit reviews using TextBlob sentiment analysis and thematic coding in Python/pandas.</li>
+                    <li>Reduced qualitative noise by 40% through cleaning and structuring unstructured employee feedback using NLTK text preprocessing pipelines, enabling reliable thematic analysis across cohorts.</li>
+                    <li>Designed a persona-specific HR intervention strategy for a high-churn associate profile, applying friction mapping and 5-Whys root cause analysis to produce a business-ready recommendation deck presented to Amazon stakeholders.</li>
+                </ul>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Culture Art Technology Presentation</h3>
+                    <p><time datetime="2025-03">Mar. 2025</time> – <time datetime="2025-06">Jun. 2025</time></p>
+                </header>
+                <p style="margin: 0 0 0.25em; color: #666; font-size: 0.9rem;">Team Lead &nbsp;·&nbsp; UCSD CAT 3</p>
+                <ul>
+                    <li>Led a 4-person cross-disciplinary team to research, design, and launch a project website and deliver a survival guide presented to 30 students and 2 professors.</li>
+                    <li>Defined project scope and milestones across a 10-week timeline, delegating tasks by team member strengths and resolving blockers to maintain on-schedule delivery.</li>
+                    <li>Synthesized user research and feedback from 15+ peer reviews to iterate on content structure, improving clarity and navigability of the final deliverable.</li>
+                </ul>
+            </article>
         </section>
 
         <section>
@@ -38,56 +68,29 @@
 
             <article>
                 <header>
-                    <h3>Comeback Prediction in Professional Esports (League of Legends)</h3>
-                    <p>Python, scikit-learn, Plotly, pandas, Git</p>
-                    <p><a href="https://mrevanngo.github.io/LOL-statistical-analysis/" target="_blank" rel="noopener noreferrer">mrevanngo.github.io/LOL-statistical-analysis/</a></p>
+                    <h3>Comeback Prediction in Professional Esports</h3>
+                    <p><time datetime="2025-09">Sep. 2025</time> – <time datetime="2025-12">Dec. 2025</time></p>
                 </header>
+                <p style="margin: 0 0 0.25em; color: #666; font-size: 0.9rem;">Python, scikit-learn, Plotly, pandas, Git &nbsp;·&nbsp; <a href="https://mrevanngo.github.io/LOL-statistical-analysis/" target="_blank" rel="noopener noreferrer">mrevanngo.github.io/LOL-statistical-analysis/</a></p>
                 <ul>
-                    <li>Built a Random Forest classification model to predict win-from-deficit ("comeback") outcomes using 150K+ professional esports match records and early-state features at a fixed timestamp.</li>
+                    <li>Built a Random Forest classification model to predict win-from-deficit outcomes using 150K+ professional esports match records and early-state features at a fixed game timestamp.</li>
                     <li>Cleaned and prepared large-scale match data; created a reproducible dataset with engineered features capturing resource/experience gaps, objective control, and engagement efficiency.</li>
-                    <li>Addressed class imbalance (~16%) by optimizing for F1-score, applying class_weight, and tuning hyperparameters using GridSearchCV (k-fold cross-validation).</li>
-                    <li>Improved F1-score by 347% over baseline Decision Tree model through feature engineering and model selection; communicated tradeoffs using precision/recall rather than accuracy.</li>
-                    <li>Validated statistical claims using permutation testing and evaluated fairness across regions to confirm no meaningful performance disparity across cohorts.</li>
+                    <li>Addressed class imbalance (~16%) by optimizing for F1-score, applying class weight, and tuning hyperparameters using GridSearchCV (k-fold cross-validation).</li>
+                    <li>Improved F1-score by 347% over baseline Decision Tree through feature engineering and model selection; communicated tradeoffs using precision/recall rather than accuracy.</li>
                 </ul>
             </article>
 
             <article>
                 <header>
-                    <h3>STEM Degree Distribution &amp; Socioeconomic Analysis (COGS 108, Team of 4)</h3>
-                    <p>Python, pandas, SciPy</p>
-                    <p><a href="https://github.com/mrevanngo/STEM-Degree-Analysis" target="_blank" rel="noopener noreferrer">github.com/mrevanngo/STEM-Degree-Analysis</a></p>
+                    <h3>STEM Degree Distribution &amp; Socioeconomic Analysis</h3>
+                    <p><time datetime="2025-09">Sep. 2025</time> – <time datetime="2025-12">Dec. 2025</time></p>
                 </header>
+                <p style="margin: 0 0 0.25em; color: #666; font-size: 0.9rem;">Python, pandas, SciPy &nbsp;·&nbsp; <a href="https://github.com/mrevanngo/STEM-Degree-Analysis" target="_blank" rel="noopener noreferrer">github.com/mrevanngo/STEM-Degree-Analysis</a></p>
                 <ul>
-                    <li>Analyzed College Scorecard dataset (6,000+ institutions) to investigate relationship between low-income student enrollment (Pell Grant %) and STEM degree share at U.S. public colleges.</li>
-                    <li>Conducted correlation analysis revealing statistically significant negative relationship (r = -0.107, p = 0.009) between low-income enrollment and STEM degree share.</li>
+                    <li>Analyzed College Scorecard dataset (6,000+ institutions) to investigate the relationship between low-income student enrollment (Pell Grant %) and STEM degree share at U.S. public colleges.</li>
+                    <li>Conducted correlation analysis revealing a statistically significant negative relationship (r = -0.107, p = 0.009) between low-income enrollment and STEM degree share.</li>
                     <li>Cleaned and aggregated multi-dimensional educational data, filtering to 595 bachelor's-granting institutions and creating composite STEM metrics from 7 CIP code categories.</li>
-                </ul>
-            </article>
-        </section>
-
-        <section>
-            <h2>Leadership &amp; Involvement</h2>
-
-            <article>
-                <header>
-                    <h3>Culture Art Technology Presentation – Team Lead</h3>
-                    <p>UCSD CAT 3 | <time datetime="2025-03">Mar. 2025</time> – <time datetime="2025-06">Jun. 2025</time></p>
-                </header>
-                <ul>
-                    <li>Led a 4-person team to design and launch a project website and deliver a "survival guide".</li>
-                    <li>Presented to 30 students and 2 professors.</li>
-                    <li>Owned project coordination (task delegation, timeline, final pitch) and communicated design decisions clearly to a mixed technical/non-technical audience.</li>
-                </ul>
-            </article>
-
-            <article>
-                <header>
-                    <h3>Key Club – Vice President of Communications</h3>
-                    <p>Arroyo High School | <time datetime="2022-08">Aug. 2022</time> – <time datetime="2024-06">Jun. 2024</time></p>
-                </header>
-                <ul>
-                    <li>Coordinated volunteer operations across multiple large community events, supporting 200+ service hours while managing sign-ups, attendance tracking, and event logistics.</li>
-                    <li>Built and maintained Google Forms workflows for event registration; streamlined communication by organizing group chats and sending pre-event briefings to 100s of participants.</li>
+                    <li>Visualized distributional trends and regional disparities across institution types using Matplotlib and Seaborn, surfacing patterns to support data-driven policy discussion.</li>
                 </ul>
             </article>
         </section>
